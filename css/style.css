@@ -218,11 +218,13 @@ header img {
   justify-content: center;
 }
 .section-about-us .grid {
-  padding: 0 9rem;
+  padding: 0rem 9rem 4rem 9rem;
 }
+
 .about-us {
   background-color: #cdc1b633;
   height: max-content;
+  padding-bottom: 50px;
 }
 
 .about-us h2 {
@@ -369,6 +371,10 @@ header img {
 /***************************/
 /* INFORMATION  */
 /***************************/
+.information {
+  height: max-content;
+}
+
 .information-title {
   grid-column-start: 1;
   grid-column-end: 3;
@@ -476,7 +482,6 @@ select {
 /***************************/
 .section-contact-us-mob {
   padding: 0 6rem;
-  margin-bottom: 3rem;
 
   display: none;
   justify-content: center;
@@ -502,9 +507,7 @@ select {
 /* FOOTER  */
 /***************************/
 .section-footer {
-  border-bottom: 5rem solid #816147;
-  border-top: 0.01rem solid #816147;
-  display: flex;
+  border-bottom: 2rem solid #816147;
   align-content: center;
 }
 
