@@ -167,11 +167,10 @@
     height: 93vh;
   }
 
-  .section-about-us {
-  }
+
   .section-portfolio {
     background-color: white;
-    height: 100vh;
+    height: max-content;
     justify-content: center;
   }
   .section-investment {
